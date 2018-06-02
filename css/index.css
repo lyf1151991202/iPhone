@@ -1,0 +1,676 @@
+/*
+* @Author: Administrator
+* @Date:   2018-05-26 08:34:29
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-05-28 10:10:03
+*/
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 40px;
+	background: #444444;
+}
+header main{
+	/* width: 976px; */
+	height: 40px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+header main div{
+	font-size: 10px;
+	color: #a8a8a8;
+ }
+ /* 头部结束 */
+ /* 导航开始 */
+ nav{
+ 	width: 100%;
+ 	height: 44px;
+ 	background: #333333;
+ }
+ nav ul{
+ 	/* width: 976px; */
+ 	height: 100%;
+ 	margin: 0 auto;
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: center;
+ }
+  nav ul li a{
+  	color: #ffffff;
+ 	font-size:14px;
+ 	font-family: "黑体"; 
+  }
+ /* 导航结束 */
+/* 列表开始 */
+.list{
+	width: 100%;
+	height: auto;
+}
+.list:after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	clear: both;
+}
+.list li{
+	margin-bottom: 12px;
+	background: 
+}
+.list li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.iPhoneX h1{
+	color: #111111;
+	text-align: center;
+	font-family: "黑体";
+	font-weight: bolder;
+}
+.iPhoneX h2{
+	color: #111111;
+	text-align: center;
+	font-family: "黑体";
+	font-weight: bolder;
+}
+.iPhoneX div{
+	background: red;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+.iPhone8{
+	background: #b00e23;
+	overflow: hidden;
+}
+.iPhone8 h1{
+	width: 143px;
+	height: 33px;
+	border: 1px solid #ffffff;
+	margin: 47px auto 0;
+	font-size: 14px;
+	line-height: 33px;
+	text-align: center;
+	color: #ffffff;
+	font-weight: bolder;
+	border-radius: 4px;
+}
+.iPhone8 h2{
+	line-height: 109px;
+	font-size: 40px;
+	text-align: center;
+	color: #ffffff;
+}
+.iPhone8 div{
+	width: 100%;
+	height: 18px;
+	display: flex;
+}
+.iPhone8 div a{
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 16px;
+}
+.iPhone8 div a i{
+	font-size: 16px;
+}
+/* 列表结束 */
+/* lists */
+.lists ,.lists ul{
+	width: 100%;
+	height: auto;
+}
+.lists ul:after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	clear: both;
+}
+.lists ul li{
+	float: left;
+	margin-bottom: 12px;
+	box-sizing: border-box;
+}
+.lists ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.lists ul .list_1 h1{
+	text-align: center;
+	font-family: "黑体";
+	color: #000000;
+	font-weight: bolder;
+}
+
+.lists ul .list_1 h2{
+	text-align: center;
+	font-family: "黑体";
+	color: #000000;
+	font-weight: bolder;
+}
+
+
+.lists ul .list_2{
+	position: relative;
+	background: #fafafa;
+}
+.lists ul .list_2 h1{
+	text-align: center;
+	font-family: "黑体";
+	color: #000000;
+	font-weight: bolder;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 3;
+}
+
+.lists ul .list_2 h2{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-family: "黑体";
+	color: #000000;
+	font-weight: bolder;
+	z-index: 3;
+}
+.lists ul .list_2 div{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	bottom: 0;
+	z-index:2;
+}
+/* lists */
+/* footer */
+.footer_1{
+	width: 100%;
+	height: auto;
+	background: #f2f2f2;
+	overflow: hidden;
+	padding: 0 ;
+}
+.footer_main{
+	/* background: skyblue; */
+	margin: 43px auto 0;
+	display: flex;
+}
+
+.foot_nav{
+	width: 20%;
+	/*  */
+	height: 300px;
+}
+.foot_nav h3{
+	width: 100%;
+	margin-bottom: 8px;
+	font-size: 10px;
+	color: #333333;
+	font-weight: bolder;
+}
+.foot_nav ul{
+	width: 100%;
+	height: auto;
+}
+.foot_nav ul li{
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	font-size: 10px;
+	color: #333333;
+	font-weight: bolder;
+}
+.foot_nav ul li a{
+	line-height: 25px;
+	font-size: 10px;
+	color: #333333;
+	font-family: "黑体";
+	font-weight:normal;
+}
+.foot_nav ul li a:hover{
+	text-decoration: underline;
+}
+.foot_nav:nth-child(3)  ul li:nth-child(3),.foot_nav:nth-child(4)  ul li:nth-child(4){
+	margin-top: 14px;
+}
+
+
+.footer_2{
+	width: 100%;
+	height: auto;
+	background: #f2f2f2;
+	padding-left: 16px;
+	padding-right: 33px;
+	box-sizing: border-box;
+}
+/* rooter */
+.footer_2 ul{
+	width: 100%;
+}
+.footer_2 ul li,.footer_2 ul li a{
+	display: block;
+	width: 100%;
+	height: 37px;
+	border-bottom: 1px solid #d6d6d6;
+	line-height: 37px;
+	font-size: 10px;
+	color: #333333;
+}
+.footer_2 ul li a i{
+	float: right;
+}
+.lar{
+	width: 100%;
+	background: #f2f2f2;
+	overflow: hidden;
+}
+.end{
+	margin: 22px auto 20px;
+}
+.end h1{
+	font-size: 10px;
+	color: #888888;
+	line-height: 32px;
+	border-bottom: 1px solid #d6d6d6;
+}
+.end h1 a{
+	color: #0070c9;
+}
+.copyright{
+	width: 100%;
+	height: 35px;
+}
+.Cleft{
+	width: auto;
+	height: 100%;
+	line-height: 35px;
+	font-size: 12px;
+	color: #999999;
+	margin-right: 16px;
+	float: left;
+}
+.Ccenter{
+	width: auto;
+	height: 100%;
+	float: left;
+}
+.Ccenter a{
+	display: block;
+	font-size: 10px;
+	color: #555555;
+	padding: 0 10px;
+	border-right: 1px solid #d6d6d6;
+	line-height: 16px;
+	float: left;
+	margin-top: 9px;
+}
+.Cright{
+	float:right;
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-size: 10px;
+	color: #555555;
+}
+.Cright div{
+	width: 16px;
+	height: 16px;
+	background: url(../img/16.png) no-repeat center/cover;
+	margin-right: 6px;
+}
+.end p{
+	width: 100%;
+	height: 16px;
+	font-size: 10px;
+	line-height: 16px;
+	color: #999999;
+}
+.end p a{
+	color: #999999;
+}
+.footer_min{
+	width: 100%;
+	height: 163px;
+	padding:1px 22px 0;
+	box-sizing: border-box;
+	background: #f2f2f2;
+}
+.footer_min h1{
+	font-size: 10px;
+	color: #888888;
+	line-height: 48px;
+}
+.footer_min h1 a{
+	color: #0070c9;
+}
+.china{
+	height: 16px;
+	display: flex;
+	font-size: 10px;
+	color: #555555;
+}
+.china div{
+	width: 16px;
+	height: 16px;
+	background: url(../img/16.png) no-repeat center/cover;
+	margin-right: 6px;
+}
+.copy{
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	font-size: 10px;
+	color: #888888;
+	margin-top: 15px;
+}
+.about{
+	width: 100%;
+	height: 16px;
+}
+.about a{
+	display: block;
+	font-size: 10px;
+	color: #555555;
+	padding: 0 10px;
+	border-right: 1px solid #d6d6d6;
+	line-height: 16px;
+	float: left;
+}
+.about a:first-child{
+	padding-left: 0;
+}
+.about a:last-child{
+	padding-right: 0;
+	border-right: none;
+}
+.footer_min p{
+	margin-top: 10px;
+	width: 100%;
+	height: 16px;
+	font-size: 10px;
+	line-height: 16px;
+	color: #999999;
+}
+.footer_min p a{
+	color: #999999;
+}
+
+/* 大 */
+@media screen and (min-width:1024px){
+	header main{
+		width: 976px;
+	}
+	nav ul{
+ 	width: 980px;
+ 	}
+ 	.max{
+ 		display: block;
+ 	}
+ 	.min{
+ 		display: none;
+ 	}
+ 	.list li{
+ 		height: 580px;
+ 	}
+ 	.iPhoneX h1{
+		font-size: 40px;
+		line-height: 62px;
+		margin-top: 100px;
+	}
+	.iPhoneX h2{
+		font-size: 22px;
+		line-height: 62px;
+	}
+	.iPhoneX div{
+		width: 909px;
+		height: 194px;
+		bottom: 110px;
+		background: url('../img/iphone_x_large.jpg')no-repeat center/cover;
+	}
+	.lists ul li{
+		width: 50%;
+		height: 580px;
+		border-left: 12px solid #ffffff;
+		border-right: 12px solid #ffffff;
+	}
+		.lists ul li:nth-child(2n){
+		border-left: none;
+	}
+	.list_1{
+		background: url('../img/wwdc_large.jpg') no-repeat center/cover;
+	}
+	.lists ul .list_1 h1{
+		font-size: 28px;
+		line-height: 56px;
+		margin-top: 46px;
+	}
+	.lists ul .list_1 h1 i{
+		font-size: 28px;
+		}
+	.lists ul .list_1 h2{
+		font-size: 16px;
+		line-height: 25px;
+	}
+
+	.lists ul .list_2 h1{
+		line-height: 47px;
+		font-size: 40px;
+		top: 51px;
+	}	
+	.lists ul .list_2 h2{
+		top: 98px;
+		font-size: 20px;
+		line-height: 47px;
+	}
+	.lists ul .list_2 div{
+		width: 516px;
+		height: 430px;
+		background: url('../img/macbook_pro_large.jpg')no-repeat center/cover;
+	}
+	.footer_main{
+		width: 976px;
+	}
+	.footer_1{
+		display: block;
+	}
+		.footer_2{
+		display: none;
+	}
+	.end{
+		width: 980px;
+	}
+	.lar{
+		display: block;
+	}
+	.footer_min{
+		display: none;
+	}
+}
+
+
+/* 中 */
+@media screen and (max-width:1024px){
+	header main{
+		padding-right: 22px;
+	}
+	nav ul{
+		padding-right: 22px;
+		padding-left: 22px;
+	}
+	.max{
+ 		display: block;
+ 	}
+ 	.min{
+ 		display: none;
+ 	}
+ 	.list li{
+ 		height: 569px;
+ 	}
+ 	.iPhoneX h1{
+		font-size: 32px;
+		line-height: 51px;
+		margin-top: 86px;
+	}
+	.iPhoneX h2{
+		font-size: 20px;
+		line-height: 51px;
+	}
+	.iPhoneX div{
+		width: 704px;
+		height: 148px;
+		bottom: 146px;
+		background: url('../img/iphone_x_medium.jpg')no-repeat center/cover;
+	}
+	.lists ul li{
+		width: 50%;
+		height: 490px;
+		border-left: 12px solid #ffffff;
+		border-right: 12px solid #ffffff;
+	}
+		.lists ul li:nth-child(2n){
+		border-left: none;
+	}
+	.list_1{
+		background: url('../img/wwdc_medium.jpg') no-repeat center/cover;
+	}
+	.lists ul .list_1 h1{
+		font-size: 18px;
+		line-height: 47px;
+		margin-top: 35px;
+	}
+	.lists ul .list_1 h1 i{
+		font-size: 18px;
+		}
+	.lists ul .list_1 h2{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.lists ul .list_2 h1{
+		line-height: 37px;
+		font-size: 24px;
+		top: 41px;
+	}	
+	.lists ul .list_2 h2{
+		top: 78px;
+		font-size: 16px;
+		line-height: 37px;
+	}
+	.lists ul .list_2 div{
+		width: 350px;
+		height: 380px;
+		background: url('../img/macbook_pro_medium.jpg')no-repeat center/cover;
+	}
+	.footer_main{
+		padding-left: 22px;
+		padding-right: 22px;
+	}
+		.footer_1{
+		display: block;
+	}
+		.footer_2{
+		display: none;
+	}
+		.end{
+		padding:0 22px;
+	}
+	.lar{
+		display: block;
+	}
+	.footer_min{
+		display: none;
+	}
+}
+/* 小 */
+@media screen and (max-width:768px){
+	.max{
+ 		display: none;
+ 	}
+ 	.min{
+ 		display: block;
+ 	}
+ 	.list li{
+ 		height: 500px;
+ 	}
+ 	.iPhoneX h1{
+		font-size: 24px;
+		line-height: 37px;
+		margin-top: 38px;
+	}
+	.iPhoneX h2{
+		font-size: 18px;
+		line-height: 37px;
+	}
+	.iPhoneX div{
+		width: 167px;
+		height: 333px;
+		bottom: 40px;
+		background: url('../img/iphone_x_small.jpg')no-repeat center/cover;
+	}
+	.lists ul li{
+		width: 100%;
+		height: 500px;
+		border: none;
+	}
+	.list_1{
+		background: url('../img/wwdc_small.jpg') no-repeat center/cover;
+	}
+	.lists ul .list_1 h1{
+		font-size: 18px;
+		line-height: 47px;
+		margin-top: 31px;
+	}
+	.lists ul .list_1 h1 i{
+		font-size: 18px;
+		}
+	.lists ul .list_1 h2{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.lists ul .list_2 h1{
+		line-height: 35px;
+		font-size: 24px;
+		top: 37px;
+	}	
+	.lists ul .list_2 h2{
+		top: 72px;
+		font-size: 18px;
+		line-height: 35px;
+	}
+	.lists ul .list_2 div{
+		width: 320px;
+		height: 460px;
+		background: url('../img/macbook_pro_small.jpg')no-repeat center/cover;
+	}
+		.footer_1{
+		display: none;
+	}
+		.footer_2{
+		display: block;
+	}
+	.lar{
+		display: none;
+	}
+	.footer_min{
+		display: block;
+	}
+}
